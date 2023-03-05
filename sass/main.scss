@@ -59,7 +59,14 @@ html {
         object-fit: cover;
         background-repeat: no-repeat;
         // min-height: 93vh;
-        // background-position: center;
+        // background-position: center;        
+    }
+
+    @media (max-width: 799px) {
+        .header__img {
+            background-image: url(../assets/books-2606859_640.jpg);
+            width: 100%;        
+        }
     }
 
     &__text {
@@ -127,12 +134,7 @@ footer {
     color: whitesmoke;
 }
 
-@media (max-width: 799px) {
-    .header__img {
-        background-image: url(../assets/books-2606859_640.jpg);
-        width: 100%;        
-    }
-}
+
 
 @media (max-width: 799px) {
     .main__intro {

@@ -53,6 +53,12 @@ html {
      object-fit: cover;
   background-repeat: no-repeat;
 }
+@media (max-width: 799px) {
+  .header .header__img {
+    background-image: url(../assets/books-2606859_640.jpg);
+    width: 100%;
+  }
+}
 .header__text {
   display: flex;
   flex-direction: column;
@@ -106,12 +112,6 @@ footer {
   color: whitesmoke;
 }
 
-@media (max-width: 799px) {
-  .header__img {
-    background-image: url(../assets/books-2606859_640.jpg);
-    width: 100%;
-  }
-}
 @media (max-width: 799px) {
   .main__intro {
     margin-top: 2%;
