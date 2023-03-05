@@ -41,7 +41,7 @@ html {
     margin: 0 auto;
     flex-direction: column;
     max-width: 65vw;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);    
 }
 
 .header {
@@ -51,7 +51,7 @@ html {
     flex-basis: 100%;    
 
     &__img {        
-        background-image: url(./assets/adult-education-g8eaa20375_1280.jpg);
+        background-image: url(/assets/adult-education-g8eaa20375_1280.jpg);
         background-size: cover;
         width: 100%;
         height: 100%;
@@ -77,17 +77,9 @@ html {
         // margin: 0 auto;
         // display: block;
     }
+
     &__h1:hover {
         border-bottom: 2px solid white;
-    }
-}
-
-@media (max-width: 799px) {
-    .header__img {
-        background: url(/adult-education-g8eaa20375_1280.jpg);
-        width: 100%;
-        background-size: cover;
-        object-fit: contain;
     }
 }
 
@@ -109,7 +101,7 @@ html {
         font-size: 1.4rem;
         padding: 5px;
         margin-top: 5px;
-    }
+    }    
 }
 
 // #article-start {
@@ -134,3 +126,36 @@ footer {
     background-color: black;
     color: whitesmoke;
 }
+
+@media (max-width: 799px) {
+    .header__img {
+        background-image: url(/assets/books-2606859_640.jpg);
+        width: 100%;        
+    }
+}
+
+@media (max-width: 799px) {
+    .main__intro {
+      margin-top: 2%;
+    }
+  }
+
+  @media (max-width: 799px) {
+    .header__h1 {
+      text-align: center;
+      font-size: 2.6rem;
+      letter-spacing: 0.4rem;
+      margin-top: 10rem;
+    }
+  }
+
+  @media (max-width: 799px) {
+    .wrapper {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 0.5rem;
+    }
+  }
+
+
+ 
